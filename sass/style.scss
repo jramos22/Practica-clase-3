@@ -1,11 +1,11 @@
 
 @import'./Mixins/mixin';
 
-.blanco{
+div:nth-child(even){
     @include medidas($width:90px,$height:90px,$backcolor:white ,$float:left );
     
 }
-.negro{
+div:nth-child(odd){
     @include medidas($width:90px,$height:90px,$backcolor:black ,$float:left );
 }
 #contenedor{

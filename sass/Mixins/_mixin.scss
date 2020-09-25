@@ -1,0 +1,7 @@
+@mixin medidas($width,$height,$backcolor,$float) {
+    width: $width;
+    height: $height;
+    background-color: $backcolor;
+    float: $float;
+
+}
