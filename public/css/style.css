@@ -1,0 +1,21 @@
+.blanco {
+  width: 90px;
+  height: 90px;
+  background-color: white;
+  float: left; }
+
+.negro {
+  width: 90px;
+  height: 90px;
+  background-color: black;
+  float: left; }
+
+#contenedor {
+  width: 630px;
+  margin: 0 auto;
+  padding-top: 100px; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
