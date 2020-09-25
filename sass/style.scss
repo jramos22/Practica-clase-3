@@ -1,14 +1,12 @@
+
+@import'./Mixins/mixin';
+
 .blanco{
-    width: 90px;
-    height: 90px;
-    background-color: white;
-    float: left;
+    @include medidas($width:90px,$height:90px,$backcolor:white ,$float:left );
+    
 }
 .negro{
-    width: 90px;
-    height: 90px;
-    background-color: black;
-    float: left;
+    @include medidas($width:90px,$height:90px,$backcolor:black ,$float:left );
 }
 #contenedor{
     width: 630px;
